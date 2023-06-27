@@ -23,7 +23,7 @@ class Sample
     static void Main(string[] args)
     {
         var heldinConfig = HeldinConfig.ForSecureHost("10.20.30.40")
-            .Fo().Test() // Use .Fo() only for production
+            .Fo().Test() // Or Prod()
             .Com() // Or Gov()
             .MemberCode("123456")
             .SubSystemCode("my-system")
